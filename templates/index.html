@@ -1,18 +1,20 @@
 {% extends 'layout.html' %}
+{% load static %}
 
 {% block content %}
 
     <div class="row">
         <div class="col-nd-12">
-            <h1>Resume App</h1>
+            <h1 class="myHeader">Resume App</h1>
         </div>
     </div>
+
     <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, expedita illum ipsum minima sequi voluptatibus. Aperiam deserunt id incidunt iste labore, laboriosam laudantium non obcaecati, omnis praesentium sapiente totam veritatis.</span><span>A ab accusantium adipisci aliquam beatae consectetur cupiditate dicta earum eligendi expedita hic illo incidunt iste, maiores minus nam nisi provident quae quas quisquam, recusandae reiciendis sed vel veritatis voluptates.</span><span>Alias aliquid amet animi atque debitis dignissimos distinctio dolorum est fuga harum illo, iste maiores nam nemo neque, nesciunt non numquam perferendis reiciendis reprehenderit rerum sed similique sit tempora unde!</span><span>Aliquam cupiditate eaque facilis, fugiat hic in incidunt, ipsum labore maiores minus modi molestias nulla, obcaecati quo quos recusandae repellat saepe similique ullam vel velit vero voluptatibus. Consequuntur, deleniti, labore.</span><span>Ducimus, ipsam nulla? Aliquid deserunt dolore ipsa, natus non nulla perferendis placeat quae quis quo, sapiente unde velit vero? Dolorum inventore, ipsa magnam molestias necessitatibus nobis recusandae repellendus temporibus ut?</span><span>Alias amet at atque autem consectetur consequuntur dolorem ea, eaque et expedita facilis harum iste iusto labore libero maxime nobis quaerat quidem quos sapiente soluta totam ullam unde vitae voluptates.</span><span>Accusantium amet atque autem commodi, consequuntur culpa cumque dicta dignissimos dolore doloremque ea harum id illum molestiae mollitia natus nulla odit quasi quia quisquam quo sit voluptas, voluptatum. Maiores, provident.</span><span>Aliquam doloremque hic laborum modi molestias neque optio porro repudiandae? Accusantium autem delectus exercitationem explicabo facere facilis in, voluptas voluptatum? Alias aspernatur illo minima quidem quis, ratione repellendus sunt temporibus!</span><span>Culpa, cumque doloremque eum eveniet, facilis fuga iure maxime modi neque nisi nostrum officiis optio porro ratione rem ut veniam. Corporis deserunt dicta eum fugit itaque obcaecati ratione, recusandae veniam.</span><span>Alias hic natus, necessitatibus nulla saepe tenetur. Accusamus assumenda aut blanditiis, consequatur cupiditate doloremque error, esse ex laudantium minima minus neque nisi officiis, omnis porro reiciendis similique sunt voluptate voluptates.</span>
     </p>
 
     <div class="card" style="width: 18rem;">
-        <img src="http://via.placeholder.com/450x300.png" class="card-img-top" alt="...">
+        <img src="{% get_media_prefix %}photo1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
