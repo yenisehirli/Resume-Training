@@ -11,3 +11,6 @@ psycopg2==2.9.7
 sqlparse==0.4.4
 tzdata==2023.3
 virtualenv==20.24.3
+boto3
+django-storages
+
